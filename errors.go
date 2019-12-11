@@ -27,7 +27,7 @@ type stackTracer interface {
 }
 
 // skipFrames defines the baseline number of stack frames that are considered overhead and not automatically filtered by Bugsnag
-const skipFrames = 1
+const skipFrames = 2
 
 // FromStackTracer wraps an error that implements the github.com/pkg/errors stackTracer interface with a Bugsnag compatible error
 func FromError(err error) Error {
