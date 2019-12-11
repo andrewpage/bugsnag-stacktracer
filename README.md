@@ -1,6 +1,6 @@
 # bugsnag-stacktracer
 
-`bugsnag-stacktracer` helps bridge the gap between the popular https://github.com/pkg/errors package's error stacktrace recording and https://bugsnag/bugsnag-go package's expected error stacktrace format.
+`bugsnag-stacktracer` helps bridge the gap between the popular [pkg/errors](https://github.com/pkg/errors) package's error stacktrace recording and [bugsnag/bugsnag-go](https://github.com/bugsnag/bugsnag-go) package's expected error stacktrace format.
 
 ## Usage
 
